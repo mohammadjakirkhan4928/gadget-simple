@@ -10,7 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* NAV BAR style */
+/*---------------------- NAV BAR style---------------------------------------- */
 main{
     width: 1440px;
     background-color: #ffffff;
@@ -53,14 +53,13 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-.right-bar .bg-circle{
-    position: relative;
+.right-bar camera{
+    width: 80%;
+    height: 40%;
 }
-.camera-image{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+
+
+
 .btn{
     margin-top: 40px;
 }
@@ -162,11 +161,12 @@ nav{
  .featured-products{
     width: 80%;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
  }
  .products{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
  }
  .product-info h2{
     font-weight: 700;
